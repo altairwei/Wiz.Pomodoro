@@ -3,7 +3,7 @@
 var activeTime, pomodoro;
 var breakTimeSec = 300; // 300 sec = 5 min
 var workTimeSec = 1500; // 1500 sec = 25 min
-var beepAudio = new Audio("http://www.soundjay.com/button/sounds/beep-08b.mp3");
+var beepAudio = new Audio("beep-08b.wav");
 
 function beep() {
 	beepAudio.play();
